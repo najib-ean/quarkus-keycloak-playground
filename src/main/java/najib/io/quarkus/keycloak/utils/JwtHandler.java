@@ -19,7 +19,7 @@ public class JwtHandler {
             }
 
             String[] tokenParts = token.split("\\.");
-            if (tokenParts.length < 2) {
+            if (tokenParts.length < 3) {
                 throw new BadRequestException("Invalid JWT token format");
             }
 

@@ -17,7 +17,7 @@ public class UserResource {
     SecurityIdentity securityIdentity;
 
     @GET
-    @RolesAllowed("default-roles-dive-dev")
+    @RolesAllowed("offline_access")
     public String user() {
         return "Hello, User!";
     }

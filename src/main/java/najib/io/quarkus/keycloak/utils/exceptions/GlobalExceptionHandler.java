@@ -1,4 +1,4 @@
-package najib.io.quarkus.keycloak.utils;
+package najib.io.quarkus.keycloak.utils.exceptions;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
@@ -8,6 +8,7 @@ import jakarta.ws.rs.NotFoundException;
 import jakarta.ws.rs.core.Response;
 import jakarta.ws.rs.ext.ExceptionMapper;
 import jakarta.ws.rs.ext.Provider;
+import najib.io.quarkus.keycloak.utils.ApiResponse;
 import org.jboss.logging.Logger;
 
 @Provider
